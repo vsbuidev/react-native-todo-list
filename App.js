@@ -10,6 +10,7 @@ import {
 } from "react-native";
 import GoalItem from "./GoalItem";
 import GoalInput from "./GoalInput";
+import { StatusBar } from "expo-status-bar";
 
 export default function App() {
   const [goals, setGoals] = useState([]);
@@ -33,27 +34,34 @@ export default function App() {
   }
 
   return (
-    <View style={styles.appContainer}>
-      <Button title="Add New Goal" color="#5e0acc" onPress={startGoalHandler} />
-      <GoalInput
-        onClose={closeGoalHandler}
-        visible={isModalVisible}
-        onAddGoal={addGoalHandler}
-      />
-      <View style={styles.goalContainer}>
-        <FlatList
-          data={goals}
-          renderItem={(itemData) => {
-            return (
-              <GoalItem
-                text={itemData.item}
-                onDelete={() => deleteItem(itemData.index)}
-              />
-            );
-          }}
+    <>
+      <StatusBar style="light" />
+      <View style={styles.appContainer}>
+        <Button
+          color="#a070d6"
+          title="Add New Goal"
+          onPress={startGoalHandler}
         />
+        <GoalInput
+          onClose={closeGoalHandler}
+          visible={isModalVisible}
+          onAddGoal={addGoalHandler}
+        />
+        <View style={styles.goalContainer}>
+          <FlatList
+            data={goals}
+            renderItem={(itemData) => {
+              return (
+                <GoalItem
+                  text={itemData.item}
+                  onDelete={() => deleteItem(itemData.index)}
+                />
+              );
+            }}
+          />
+        </View>
       </View>
-    </View>
+    </>
   );
 }
 
@@ -62,6 +70,7 @@ const styles = StyleSheet.create({
     paddingTop: 50,
     paddingHorizontal: 16,
     flex: 1,
+    backgroundColor: "#1a0037",
   },
   goalContainer: {
     flex: 4,
