@@ -37,6 +37,7 @@ export default function App() {
     <>
       <StatusBar style="light" />
       <View style={styles.appContainer}>
+        <Text style={styles.headingText}>Daily To-Do</Text>
         <Button
           color="#a070d6"
           title="Add New Goal"
@@ -74,5 +75,11 @@ const styles = StyleSheet.create({
   },
   goalContainer: {
     flex: 4,
+  },
+  headingText: {
+    fontSize: 32,
+    textAlign: "center",
+    paddingBottom: 24,
+    color: "#e4d0ff",
   },
 });
