@@ -56,4 +56,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- Special thanks to the [React Native](https://reactnative.dev/) and [Expo](https://expo.dev/) community for their invaluable resources and support.
+Special thanks to the [React Native](https://reactnative.dev/) and [Expo](https://expo.dev/) community for their invaluable resources and support.
