@@ -44,7 +44,7 @@ npm install
 npm start
 ```
 
-4. Install the Expo App (Android/iOS) from the Google Play / App Store and Scan the QR code shown in terminal with Expo Go (Android) or the Camera app (iOS).
+4. Install the Expo Go App (Android/iOS) from the Google Play / App Store and Scan the QR code shown in terminal with Expo Go (Android) or the Camera app (iOS).
 
 ## Contributing
 
