@@ -2,7 +2,16 @@
 
 ## Preview
 
-- [Mobile Screenshot](./Preview/Screenshot.PNG)
+<p align="center">
+   Figma Design Preview:
+  <img src="./Preview/Design.png" alt="design" />
+</p>
+<br />
+<p align="center">
+   Mobile Screenshot Preview:
+  <img src="./Preview/Screenshot.PNG" alt="screenshot" />
+</p>
+<!-- - [Mobile Screenshot](./Preview/Screenshot.PNG) -->
 
 ## Figma Design
 
