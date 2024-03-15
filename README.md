@@ -1,17 +1,13 @@
-# Minimal To-do List App - React Native :
+# Minimal To-do List App:
+
+<p align="center">
+  Free Minimal To-do List app for everyone. <br />Built with React Native and Expo.
+</p>
 
 ## Preview
 
-<p align="center">
-   Figma Design Preview:
-  <img src="./Preview/Design.png" alt="design" />
-</p>
-<br />
-<p align="center">
-   Mobile Screenshot Preview:
-  <img src="./Preview/Screenshot.PNG" alt="screenshot" />
-</p>
-<!-- - [Mobile Screenshot](./Preview/Screenshot.PNG) -->
+- [Figma Design](./Preview/Design.png)
+- [Mobile Screenshot](./Preview/Screenshot.PNG)
 
 ## Figma Design
 
@@ -19,7 +15,14 @@ Explore the app's user interface design on Figma: [Figma Design Link](https://ww
 
 ## Introduction
 
-Welcome to the React Native Minimal To-do List app! This mobile application allows you to manage your tasks on-the-go with ease. Whether you're organizing your daily to-do's or planning your next big project, this app has you covered.
+This mobile application allows you to manage your tasks on-the-go with ease. Whether you're organizing your daily to-do's or planning your next big project, this app has you covered you all.
+
+## Technologies Used
+
+- React Native: A JavaScript framework for building native mobile applications.
+- Expo: A platform for building and deploying React Native apps quickly.
+- JavaScript (ES6+): The primary programming language used in the project.
+- npm: The Node Package Manager for managing dependencies and running scripts.
 
 ## Features
 
